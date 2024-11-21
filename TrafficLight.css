@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(8, 139, 141);
+  font-family: Arial, sans-serif;
+}
+
+
+.traffic-light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  background: #333;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.bulb {
+  width: 80px;
+  height: 80px;
+  margin: 10px 0;
+  background: #999;
+  border-radius: 50%;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: background 0.5s ease;
+}
+
+
+.bulb.red {
+  background: red;
+}
+
+.bulb.yellow {
+  background: yellow;
+}
+
+.bulb.green {
+  background: green;
+}
+
+
+
+
